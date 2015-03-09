@@ -1,0 +1,12 @@
+# Site settings
+title: Sound Security Podcast 
+email: soundsecurity@braxtonehle.com
+description: "Braxton Ehle and Osman Surkatty rant about the latest in information security news to help enterprises and mere mortals defend their information."
+baseurl: ""
+url: "http://soundsecurity.braxtonehle.com"
+username: "braxtone"
+twitter_username: "_braxtone"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
