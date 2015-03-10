@@ -1,0 +1,10 @@
+---
+permalink: /404.html
+layout: page
+---
+
+_Quoth the server, "404"_
+
+Uh oh! The page you are looking for has gone missing! Head back to safer waters - <{{ site.url }}>
+
+Think something should be here but it isn't? Submit an issue to our [Github repo]( {{ site.gitrepo }} ) or shoot an email to <{{ site.email }}>

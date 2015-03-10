@@ -1,9 +1,10 @@
 ---
-layout: episode
+layout: post
 date: 2015-03-01
 title: Episode 01 - Endtroducing
 duration: "39:19"
 length: 28303670
+category: episodes
 link: http://soundsecurity.braxtonehle.com/audio/sound-security-e001.mp3
 ---
 
