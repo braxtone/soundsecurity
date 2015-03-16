@@ -6,8 +6,9 @@ baseurl: ""
 url: "http://soundsecurity.braxtonehle.com"
 username: "braxtone"
 twitter_username: "_braxtone"
-exclude: ["LICENSE", "README.md", "bin/"]
 
 # Build settings
+exclude: ["LICENSE", "README.md", "bin/"]
 markdown: kramdown
 permalink: pretty
+show_drafts: null
