@@ -18,3 +18,5 @@ link: http://soundsecurity.braxtonehle.com/audio/sound-security-e002.mp3
 
 4. Breach of the Week, [Google WHOIS Disclosure](http://blogs.cisco.com/security/talos/whoisdisclosure)
  * [Finger protocol](https://en.wikipedia.org/wiki/Finger_protocol) of yesteryear
+
+Temporary homepage: http://soundsecurity.braxtonehle.com/
