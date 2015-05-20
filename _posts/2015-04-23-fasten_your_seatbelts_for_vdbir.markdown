@@ -8,8 +8,6 @@ category: episodes
 link: http://soundsecurity.braxtonehle.com/audio/sound-security-e005.mp3
 ---
 
-Link to audio: 
-
 # Discussed Articles
 1. Verizon 2015 Data Breach Investigation Report - http://www.verizonenterprise.com/resources/reports/rp_data-breachinvestigation-report-2015_en_xg.pdf
 * Threat intel still not all that valuable
