@@ -8,6 +8,8 @@ category: episodes
 link: http://soundsecurity.braxtonehle.com/audio/AUDIO-FILE-EXPORT.mp3
 ---
 
+Link to audio: http://soundsecurity.braxtonehle.com/audio/AUDIO-FILE-EXPORT.mp3
+
 # Discussed Articles
 
 1. STORY-NAME - LINK
