@@ -2,8 +2,8 @@
 layout: post
 date: 2015-06-18
 title: Episode 8 - Come At Me HTTP!
-duration: "31:10"
-length: 29921324
+duration: "36:33"
+length: 35410256
 category: episodes
 link: http://soundsecurity.braxtonehle.com/audio/sound-security-e008.mp3
 ---
