@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-06-18
-title: Episode 8 - Come At Me HTTP!
+title: Episode 08 - Come At Me HTTP!
 duration: "36:33"
 length: 35410256
 category: episodes

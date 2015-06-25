@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-06-04
-title: Episode 7 - Ssh, your PGP is showing
+title: Episode 07 - Ssh, your PGP is showing
 duration: "31:10"
 length: 29921324
 category: episodes
