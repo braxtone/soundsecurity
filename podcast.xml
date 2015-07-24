@@ -8,11 +8,11 @@ layout: nil
 
 <channel>
 
-  <atom:link href="http://soundsecurity.braxtonehle.com/podcast.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="http://soundsecurity.io/podcast.xml" rel="self" type="application/rss+xml" />
 
   <title>Sound Security Podcast</title>
 
-  <link>http://soundsecurity.braxtonehle.com/</link>
+  <link>http://soundsecurity.io/</link>
 
   <language>en</language>
 
@@ -34,7 +34,7 @@ layout: nil
 
   </itunes:owner>
 
-  <itunes:image href="http://soundsecurity.braxtonehle.com/images/itunes.png"/>
+  <itunes:image href="http://soundsecurity.io/images/itunes.png"/>
 
   <itunes:category text="Technology">
     <itunes:category text="Tech News" />
@@ -54,7 +54,7 @@ layout: nil
    
    <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
    
-   <itunes:image href="http://soundsecurity.braxtonehle.com/images/itunes.png" />
+   <itunes:image href="http://soundsecurity.io/images/itunes.png" />
    
    <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
    

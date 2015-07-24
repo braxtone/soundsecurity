@@ -5,7 +5,7 @@ title: Episode 05 - Fasten your seatbelts for VDBIR
 duration: "28:31"
 length: 27380975
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e005.mp3
+link: http://soundsecurity.io/audio/sound-security-e005.mp3
 ---
 
 # Discussed Articles

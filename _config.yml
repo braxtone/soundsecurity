@@ -3,12 +3,13 @@ title: Sound Security Podcast
 email: soundsecurity@braxtonehle.com
 description: "Braxton Ehle and Osman Surkatty rant about the latest in information security news to help enterprises and mere mortals defend their information."
 baseurl: ""
-url: "http://soundsecurity.braxtonehle.com"
+url: "http://soundsecurity.io"
 username: "braxtone"
-twitter_username: "_braxtone"
+twitter_username: "soundsec"
+gitrepo: "https://github.com/braxtone/soundsecurity.braxtonehle.com"
 
 # Build settings
-exclude: ["LICENSE", "README.md", "bin/"]
+exclude: ["LICENSE", "README.md", "bin/", "_drafts/1969-07-16-template.markdown"]
 markdown: kramdown
 permalink: pretty
 show_drafts: null

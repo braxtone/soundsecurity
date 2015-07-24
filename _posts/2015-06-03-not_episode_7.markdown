@@ -34,7 +34,7 @@ support this approach.
 2. [United Launches a Bug Bounty Program](http://www.united.com/web/en-US/content/Contact/bugbounty.aspx)
 
 Now this is totally *not* in response to the hoopla surrounding the security researcher tweeting
-dumb things on the United flight that we talked about in [episode five](http://soundsecurity.braxtonehle.com/episodes/2015/04/23/fasten_your_seatbelts_for_vdbir/). But, because it is, I have a lot of respect for United and their InfoSec team for responding the way they did. There's a lot to be said for a post mortem process after things go horribly wrong that helps you think through what processes you can put in place to make sure said bad thing never happens again. United evidently did something to that effect and decided to launch a bug bounty program in which frequent flyer miles are handed out for vulnerabilities.
+dumb things on the United flight that we talked about in [episode five](http://soundsecurity.io/episodes/2015/04/23/fasten_your_seatbelts_for_vdbir/). But, because it is, I have a lot of respect for United and their InfoSec team for responding the way they did. There's a lot to be said for a post mortem process after things go horribly wrong that helps you think through what processes you can put in place to make sure said bad thing never happens again. United evidently did something to that effect and decided to launch a bug bounty program in which frequent flyer miles are handed out for vulnerabilities.
 
 Now, there may be a bit of irony in rewarding a security researcher with a flight on the plane that
 they just found a remote code execution vuln on, but aside from that, it was really great to see

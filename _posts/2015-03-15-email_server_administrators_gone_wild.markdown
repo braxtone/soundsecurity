@@ -5,7 +5,7 @@ title: Episode 02 - Email Server Administrators Gone Wild
 duration: "29:49"
 length: 28749503
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e002.mp3
+link: http://soundsecurity.io/audio/sound-security-e002.mp3
 ---
 
 # Discussed Articles
@@ -17,5 +17,3 @@ link: http://soundsecurity.braxtonehle.com/audio/sound-security-e002.mp3
 * Arguments Against DNSSEC - http://sockpuppet.org/blog/2015/01/15/against-dnssec/
 4. Breach of the Week: Google WHOIS Disclosure - http://blogs.cisco.com/security/talos/whoisdisclosure
 * Finger protocol - https://en.wikipedia.org/wiki/Finger_protocol of yesteryear
-
-Temporary homepage: http://soundsecurity.braxtonehle.com/

@@ -5,7 +5,7 @@ title: Episode 01 - Endtroducing
 duration: "39:19"
 length: 28303670
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e001.mp3
+link: http://soundsecurity.io/audio/sound-security-e001.mp3
 ---
 
 # Discussed Articles

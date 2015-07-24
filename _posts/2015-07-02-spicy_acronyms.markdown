@@ -5,10 +5,8 @@ title: Episode 9 - Spicy Acronyms
 duration: "29:55"
 length: 57450080
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e009.mp3
+link: http://soundsecurity.io/audio/sound-security-e009.mp3
 ---
-
-Link to audio: http://soundsecurity.braxtonehle.com/audio/sound-security-e009.mp3
 
 # Discussed Articles
 

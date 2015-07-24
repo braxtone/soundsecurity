@@ -5,7 +5,7 @@ title: Episode 04 - Great Cannons, Nuclear or Otherwise
 duration: "34:05"
 length: 24538968
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e004.mp3
+link: http://soundsecurity.io/audio/sound-security-e004.mp3
 ---
 
 # Discussed Articles

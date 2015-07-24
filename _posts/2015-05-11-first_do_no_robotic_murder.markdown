@@ -5,7 +5,7 @@ title: Episode 06 - First, Do No Robotic Murder
 duration: "30:35"
 length: 29346086
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e006.mp3
+link: http://soundsecurity.io/audio/sound-security-e006.mp3
 ---
 
 # Discussed Articles

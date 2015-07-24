@@ -5,10 +5,8 @@ title: Episode 08 - Come At Me HTTP!
 duration: "36:33"
 length: 35410256
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e008.mp3
+link: http://soundsecurity.io/audio/sound-security-e008.mp3
 ---
-
-Link to audio: http://soundsecurity.braxtonehle.com/audio/sound-security-e008.mp3
 
 # Discussed Articles
 1. Interview with Sean, author of the camb tool

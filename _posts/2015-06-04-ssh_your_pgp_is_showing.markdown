@@ -5,11 +5,8 @@ title: Episode 07 - Ssh, your PGP is showing
 duration: "31:10"
 length: 29921324
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/sound-security-e007.mp3
+link: http://soundsecurity.io/audio/sound-security-e007.mp3
 ---
-
-Link to audio: http://soundsecurity.braxtonehle.com/audio/sound-security-e007.mp3
-
 
 # Discussed Articles
 1. Facebook PGP Encrypted Emails:
