@@ -5,10 +5,10 @@ title: Episode NUMBER - TITLE
 duration: "XX:xx"
 length: EPISODE-FILE-SIZE-IN-BYTES
 category: episodes
-link: http://soundsecurity.braxtonehle.com/audio/AUDIO-FILE-EXPORT.mp3
+link: http://soundsecurity.io/audio/AUDIO-FILE-EXPORT.mp3
 ---
 
-Link to audio: http://soundsecurity.braxtonehle.com/audio/AUDIO-FILE-EXPORT.mp3
+Link to audio: http://soundsecurity.io/audio/AUDIO-FILE-EXPORT.mp3
 
 # Discussed Articles
 
