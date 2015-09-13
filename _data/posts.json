@@ -1,0 +1,33 @@
+{
+  "11": {
+    "title": "Life's a Breach",
+    "audio_file": "sound-security-e011.mp3",
+    "articles": [
+                  {
+                    "title": "Your Security Policy is So Lame",
+                    "urls": ["https://isc.sans.edu/diary/Your+Security+Policy+Is+So+Lame/19991"],
+                    "comment": ""
+                  },
+                  {
+                    "title": "Death to plugins of yore",
+                    "urls": [
+                              "https://threatpost.com/google-patches-critical-vulnerabilities-in-chrome-45/114509",
+                              "http://advertising.amazon.com/ad-specs/en/policy/technical-guidelines",
+                              "http://arstechnica.com/information-technology/2015/08/google-chrome-will-block-auto-playing-flash-ads-from-september-1/",
+                              "http://googleadsdeveloper.blogspot.com/2015/08/handling-app-transport-security-in-ios-9.html"
+                    ],
+                    "comment": ""
+                  },
+                  {
+                    "title": "NSA w/ Quantum Resistant Computing initiative",
+                    "urls": ["https://www.nsa.gov/ia/programs/suiteb_cryptography/index.shtml"],
+                    "comment": ""
+                  }
+    ],
+    "breach": {
+               "title": "Ashley Madison",
+               "urls": ["https://isc.sans.edu/diary/Your+Security+Policy+Is+So+Lame/19991"],
+               "comment": ""
+    }
+  }
+}

@@ -1,75 +1,55 @@
 ---
 layout: nil
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
-
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-
-<channel>
-
-  <atom:link href="http://soundsecurity.io/podcast.xml" rel="self" type="application/rss+xml" />
-
-  <title>Sound Security Podcast</title>
-
-  <link>http://soundsecurity.io/</link>
-
-  <language>en</language>
-
-  <copyright>&#xA9; 2015 Braxton Ehle &amp; Osman Surkatty</copyright>
-
-  <itunes:subtitle>Fanfare for the common infosec ninja</itunes:subtitle>
-
-  <itunes:author>Braxton Ehle &amp; Osman Surkatty</itunes:author>
-
-  <itunes:keywords>infosec,information,security,blueteam,defense,enterprise,risk</itunes:keywords>
-
-  <description>Braxton Ehle and Osman Surkatty rant about the interesting news in the information security world focusing on ways organizations can better protect their information and manage risk.</description>
-
-  <itunes:owner>
-
-    <itunes:name>Braxton Ehle</itunes:name>
-
-    <itunes:email>soundsecurity@braxtonehle.com</itunes:email>
-
-  </itunes:owner>
-
-  <itunes:image href="http://soundsecurity.io/images/itunes.png"/>
-
-  <itunes:category text="Technology">
-    <itunes:category text="Tech News" />
-  </itunes:category>
-
-  <itunes:explicit>clean</itunes:explicit>
-
-   {% for post in site.categories.episodes limit:10 %}
-   
-   <item>
-   
-   <title>{{ post.title }}</title>
-   
-   <itunes:author>Braxton Ehle &amp; Osman Surkatty</itunes:author>
-   
-   <itunes:subtitle>Sound Security Podcast: {{ post.title }}</itunes:subtitle>
-   
-   <itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
-   
-   <itunes:image href="http://soundsecurity.io/images/itunes.png" />
-   
-   <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
-   
-   <guid>{{ post.link }}</guid>
-   
-   <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
-   
-   <itunes:duration>{{ post.duration }}</itunes:duration>
-   
-   <itunes:keywords>infosec,information,security,blueteam,defense,enterprise,risk</itunes:keywords>
-   
-   </item>
-
-   {% endfor %}
-
-</channel>
-
+  <channel>
+    <atom:link href="http://soundsecurity.io/podcast.xml" rel="self" type="application/rss+xml" />
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <language>en</language>
+    <copyright>{{ site.copyright | xml_excape }}</copyright>
+    <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+    <itunes:author>{{ site.author }}</itunes:author>
+    <itunes:keywords>{{ site.keywords }}</itunes:keywords>
+    <description>{{ site.description }}</description>
+    <itunes:owner>
+      <itunes:name>{{ site.owner }}</itunes:name>
+      <itunes:email>{{ site.email }}</itunes:email>
+    </itunes:owner>
+    <itunes:image href="{{ site.url }}{{ site.logo_path}}"/>
+    <itunes:category text="{{ site.category }}">
+      <itunes:category text="{{ site.subcategory }}" />
+    </itunes:category>
+    <itunes:explicit>{{ site.explicit_rating }}</itunes:explicit>
+     {% for post in site.categories.episodes limit:100 %}
+     <item>
+       <title>Episode {{ post.episode_num }} - {{ post.title }}</title>
+       <itunes:author>{{ site.author | xml_escape }}</itunes:author>
+       <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+       <itunes:summary>
+       Discussed Articles
+       {% for article in post.articles %}
+       {{ forloop.index }}) {{ article.title }}
+       {{ article.comment }}
+       {% for url in article.urls %}
+       * {{ url }}
+       {% endfor %}
+       {% endfor %}
+       Breach of the Week
+       {{ post.breach.title }}
+       {{ post.breach.comment }}
+       {% for url in post.breach.urls %}
+       * {{ url }}
+       {% endfor %}
+       </itunes:summary>
+       <itunes:image href="{{ site.url }}{{ site.logo_path }}" />
+       <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
+       <guid>{{ site.url }}{{ post.audio_file_path }}</guid>
+       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S" }} GMT</pubDate>
+       <itunes:duration>{{ post.duration }}</itunes:duration> 
+       <itunes:keywords>{{ site.keywords }}</itunes:keywords>
+     </item>
+     {% endfor %}
+  </channel>
 </rss>
