@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-07-02
-title: Episode 9 - Spicy Acronyms
+title: Episode 09 - Spicy Acronyms
 duration: "29:55"
 length: 57450080
 category: episodes
