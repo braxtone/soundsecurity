@@ -2,8 +2,8 @@
 layout: post
 date: 2015-09-02
 title: Episode 11 - Life's a Breach
-duration: "XX:xx"
-length: EPISODE-FILE-SIZE-IN-BYTES
+duration: "27:23"
+length: 39433021
 category: episodes
 link: http://soundsecurity.io/audio/sound-security-e011.mp3
 ---
