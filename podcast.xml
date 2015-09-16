@@ -42,7 +42,7 @@ layout: nil
 
   <itunes:explicit>clean</itunes:explicit>
 
-   {% for post in site.categories.episodes limit:10 %}
+   {% for post in site.categories.episodes limit:50 %}
    
    <item>
    
