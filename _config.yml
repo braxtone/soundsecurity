@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://soundsecurity.io"
 username: "braxtone"
 twitter_username: "soundsec"
-gitrepo: "https://github.com/braxtone/soundsecurity.braxtonehle.com"
+gitrepo: "https://github.com/braxtone/soundsecurity"
 
 # Build settings
 markdown: kramdown
