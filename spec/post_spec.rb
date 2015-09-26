@@ -1,9 +1,9 @@
 require_relative 'spec_helper'
 
 describe "Posts" do
-
   before(:each) do
     @posts = []
+
     Dir.foreach('_posts') do |p|
       @posts << IO.read("_posts/#{p}") if p.match(/^[^.]\w/)
     end
@@ -24,20 +24,31 @@ describe "Posts" do
   describe "with show notes" do
     before(:each) do
       @posts = []
+      @audio_files = []
+
       Dir.foreach('_posts') do |p|
         @posts << IO.read("_posts/#{p}") if p.match(/^[^.]\w/)
       end
-
       @posts = @posts.map { |p| YAML.load(p) }
-
       # Filter the non-episode related posts
       @posts.select! { |p| p['category'] == 'episodes' }
+
+      Dir.foreach('audio') do |p|
+          @audio_files << p if p.match(/^sound-security-e\d{3}\.mp3$/)
+      end
     end
 
     it "should have correct podcasting metadata fields" do
       @posts.each do |post|
         required_fields = %w(date title duration length category link)
         expect(post.keys).to include(*required_fields)
+      end
+    end
+
+    it "should have a valid date field" do
+      @posts.each do |post|
+        expect(post['date'].to_s).not_to eq("1969-07-16")
+        expect(post['date'].to_s).to match(/^20\d{2}-\d{2}-\d{2}/)
       end
     end
 
@@ -53,6 +64,12 @@ describe "Posts" do
       # http://www.apple.com/itunes/podcasts/specs.html
       @posts.each do |post|
         expect(post['length'].to_s).to match(/[0-9]{1,}/)
+      end
+    end
+
+    it "should have a valid audio file in audio directory" do
+      @posts.each do |post|
+        expect(@audio_files).to include(post['link'].split("/")[4])
       end
     end
   end
