@@ -30,12 +30,13 @@ describe "Posts" do
 
       @posts = @posts.map { |p| YAML.load(p) }
 
+      # Filter the non-episode related posts
       @posts.select! { |p| p['category'] == 'episodes' }
     end
 
     it "should have correct podcasting metadata fields" do
       @posts.each do |post|
-        required_fields = %w(date title duration length category)
+        required_fields = %w(date title duration length category link)
         expect(post.keys).to include(*required_fields)
       end
     end
