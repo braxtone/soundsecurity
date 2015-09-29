@@ -1,19 +1,39 @@
 ---
 layout: post
+category: episodes
 date: 2015-07-02
-title: Episode 09 - Spicy Acronyms
+episode: 09
+title: Spicy Acronyms
 duration: "29:55"
 length: 57450080
-category: episodes
-link: http://soundsecurity.io/audio/sound-security-e009.mp3
+audio_file_path: "/audio/sound-security-e009.mp3"
+
+articles: 
+  - 
+    title: "A Month Without Flash"
+    comment: ""
+    urls: 
+      - "http://krebsonsecurity.com/2015/06/a-month-without-adobe-flash-player/"
+  - 
+    title: "Samsung Disabling Windows Updates"
+    comment: ""
+    urls: 
+      - "http://bsodanalysis.blogspot.in/2015/06/samsung-deliberately-disabling-windows.html"
+  - 
+    title: "Creating Security KPIs and KRIs"
+    comment: ""
+    urls: 
+      - "http://www.csoonline.com/article/2940690/network-security/how-cisos-can-create-security-kpis-and-kris.html"
+  - 
+    title: "Spiceworks Vulnerability Announcement"
+    comment: ""
+    urls: 
+      - "https://community.spiceworks.com/blog/2047-more-details-on-the-7-4-desktop-vulnerability-and-next-steps"
+breach: 
+  title: "None :("
+  comment: "Skipped in favor of talking about how well Spiceworks handled their vulnerability."
+  urls: 
+    - "http://zombo.com/"
 ---
 
-# Discussed Articles
-
-1. A month without Flash - http://krebsonsecurity.com/2015/06/a-month-without-adobe-flash-player/
-
-2. Samsung disabling Windows Updates - http://bsodanalysis.blogspot.in/2015/06/samsung-deliberately-disabling-windows.html 
-
-3. Creating security KPIs and KRIs - http://www.csoonline.com/article/2940690/network-security/how-cisos-can-create-security-kpis-and-kris.html
-
-4. Spiceworks Vulnerability Announcement - https://community.spiceworks.com/blog/2047-more-details-on-the-7-4-desktop-vulnerability-and-next-steps
+{% include show_notes.html %}

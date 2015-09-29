@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2015-06-03
-title: NOT Episode Seven
+title: Not Episode Seven
 ---
 
 So if you haven't guessed by now, Osman and I were slackers in recording episode seven. We've decided to just blog about the articles we would have talked about and resume our regularly scheduled posting on Monday.

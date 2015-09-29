@@ -2,7 +2,7 @@
 layout: post
 category: episodes
 date: 2015-09-02
-episode_num: 11
+episode: 11
 title: "Life's a Breach"
 audio_file_path: "/audio/sound-security-e011.mp3"
 length: 39433021
@@ -34,21 +34,4 @@ breach:
     - "http://krebsonsecurity.com/2015/07/online-cheating-site-ashleymadison-hacked/"
 
 ---
-Audio: [{{ site.url }}{{ page.audio_file_path }}]({{ site.url }}{{ page.audio_file_path }})
-
-### Discussed Articles
-{% for article in page.articles %}
-{{ forloop.index }}) {{ article.title }}
-{{ article.comment }}
-{% for url in article.urls %}
-* [{{ url }}]({{ url }})
-{% endfor %}
-{% endfor %}
-
-### Breach of the Week
-{{ page.breach.title }}
-{{ page.breach.comment }}
-{% for url in page.breach.urls %}
-* [{{ url }}]({{ url }})
-{% endfor %}
-
+{% include show_notes.html %}

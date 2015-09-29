@@ -18,38 +18,21 @@ articles:
     title: "Finding Algorithmically Chosen DNS Names Using Entropy"
     comment: "Check out the code at https://github.com/MarkBaggett/MarkBaggett/tree/master/freq"
     urls: 
-      - ""
+      - "https://isc.sans.edu/forums/diary/Detecting+Random+Finding+Algorithmically+chosen+DNS+names+DGA/19893/"
   - 
-    title: ""
+    title: "Google to Expand Use of Safe Browsing to Stop Unwanted Program"
     comment: ""
     urls: 
-      - ""
+      - "https://threatpost.com/google-to-expand-use-of-safe-browsing-to-stop-unwanted-software/113824"
 breach: 
-  title: ""
-  comment: ""
+  title: "Hacking Team Gets Hacked"
+  comment: "Check out the Git repo for stolen source code"
   urls: 
-    - ""
+    - "http://www.csoonline.com/article/2943968/data-breach/hacking-team-hacked-attackers-claim-400gb-in-dumped-data.html"
+    - "https://github.com/hacked-team"
 
 ---
-Audio: [{{ site.url }}{{ page.audio_file_path }}]({{ site.url }}{{ page.audio_file_path }})
-
-### Discussed Articles
-{% for article in page.articles %}
-{{ forloop.index }}) {{ article.title }}
-{{ article.comment }}
-{% for url in article.urls %}
-* [{{ url }}]({{ url }})
-{% endfor %}
-{% endfor %}
-
-### Breach of the Week
-{{ page.breach.title }}
-{{ page.breach.comment }}
-{% for url in page.breach.urls %}
-* [{{ url }}]({{ url }})
-{% endfor %}
-
-
+{% include show_notes.html %}
 
 # Announcements!
 We'll be taking the next month off due to Braxton going on paternity leave. We'll be recording again at the end of August. But we can't just abandon you, our dear listeners, bereft of great security content so here are some other great podcasts and things to check out:
