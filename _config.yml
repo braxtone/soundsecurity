@@ -1,18 +1,14 @@
 # Site settings
-title: Sound Security Podcast 
-email: soundsecurity@braxtonehle.com
+title: "Sound Security Podcast"
+email: "soundsecurity@braxtonehle.com"
 description: "Braxton Ehle and Osman Surkatty rant about the latest in information security news to help enterprises and mere mortals defend their information."
 baseurl: ""
 url: "http://soundsecurity.io"
 username: "braxtone"
 twitter_username: "soundsec"
-gitrepo: "https://github.com/braxtone/soundsecurity"
+gitrepo: "https://github.com/braxtone/soundsecurity.io"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
-show_drafts: null
-
 exclude: [
           "LICENSE", 
           "README.md", 
@@ -21,5 +17,22 @@ exclude: [
           "s3_website.yml", 
           "spec/",
           "Rakefile",
-          "Gemfile*"
+          "Gemfile*",
+          "_posts/template.markdown"
          ]
+
+markdown: kramdown
+permalink: pretty
+show_drafts: null
+
+# Podcast metadata
+copyright: "2015 Braxton Ehle + Osman Surkatty"
+subtitle: "Fanfare for the common infosec ninja"
+author: "Braxton Ehle + Osman Surkatty"
+keywords: "infosec,information,security,blueteam,defense,enterprise,risk"
+owner: "Braxton Ehle"
+logo_path: "/images/itunes.png"
+category: "Technology"
+subcategory: "Tech News"
+# Must be 'yes' or 'clean'
+explicit_rating: clean

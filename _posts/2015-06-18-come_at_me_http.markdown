@@ -1,23 +1,40 @@
 ---
 layout: post
+category: episodes
 date: 2015-06-18
-title: Episode 08 - Come At Me HTTP!
+episode: 08
+title: "Come At Me HTTP!"
+audio_file_path: "/audio/sound-security-e008.mp3"
 duration: "36:33"
 length: 35410256
-category: episodes
-link: http://soundsecurity.io/audio/sound-security-e008.mp3
+
+articles:
+  - 
+    title: "Interview with Sean, author of the camb Linux IDS tool"
+    comment: "Check out the code on his Github repo"
+    urls: 
+      - "http://www.unixist.com/security/measuring-linux-at-runtime/index.html"
+      - "https://github.com/unixist/camb"
+  - 
+    title: "Reassessing Airport Security"
+    comment: ""
+    urls: 
+      - "https://www.schneier.com/blog/archives/2015/06/reassessing_air.html"
+  - 
+    title: "Honorable Mention - LastPass Breach"
+    comment: ""
+    urls: 
+      - "https://blog.lastpass.com/2015/06/lastpass-security-notice.html"
+  - 
+    title: "Honorable Mention - Reasoning by Lego"
+    comment: ""
+    urls: 
+      - "http://www.cryptofails.com/post/121201011592/reasoning-by-lego-the-wrong-way-to-think-about"
+breach: 
+  title: ""
+  comment: ""
+  urls: 
+    - ""
+
 ---
-
-# Discussed Articles
-1. Interview with Sean, author of the camb tool
-* Tool Writeup - http://www.unixist.com/security/measuring-linux-at-runtime/index.html
-* Github Repo - https://github.com/unixist/camb
-2. Reassessing Airport Security
-* https://www.schneier.com/blog/archives/2015/06/reassessing_air.html 
-
-# Honorable Mention
-1. LastPass Breach
-* https://blog.lastpass.com/2015/06/lastpass-security-notice.html/
-2.  Reasoning by Lego
-* http://www.cryptofails.com/post/121201011592/reasoning-by-lego-the-wrong-way-to-think-about
-
+{% include show_notes.html %}

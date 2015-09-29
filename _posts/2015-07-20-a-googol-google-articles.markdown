@@ -1,25 +1,38 @@
 ---
 layout: post
-date: 2015-07-20
-title: Episode 10 - A Googol Google Articles
-duration: "38:09"
-length: 38907361 
 category: episodes
-link: http://soundsecurity.io/audio/sound-security-e010.mp3
+date: 2015-07-20
+episode: 10
+title: A Googol Google Articles
+audio_file_path: "/audio/sound-security-e010.mp3"
+length: 38907361 
+duration: "38:09"
+
+articles: 
+  - 
+    title: "Google's Comments on the Wassenaar Arrangement"
+    comment: "Send your comments to publiccomments@bis.doc.gov"
+    urls: 
+      - "http://googleonlinesecurity.blogspot.com/2015/07/google-wassenaar-arrangement-and.html"
+  - 
+    title: "Finding Algorithmically Chosen DNS Names Using Entropy"
+    comment: "Check out the code at https://github.com/MarkBaggett/MarkBaggett/tree/master/freq"
+    urls: 
+      - "https://isc.sans.edu/forums/diary/Detecting+Random+Finding+Algorithmically+chosen+DNS+names+DGA/19893/"
+  - 
+    title: "Google to Expand Use of Safe Browsing to Stop Unwanted Program"
+    comment: ""
+    urls: 
+      - "https://threatpost.com/google-to-expand-use-of-safe-browsing-to-stop-unwanted-software/113824"
+breach: 
+  title: "Hacking Team Gets Hacked"
+  comment: "Check out the Git repo for stolen source code"
+  urls: 
+    - "http://www.csoonline.com/article/2943968/data-breach/hacking-team-hacked-attackers-claim-400gb-in-dumped-data.html"
+    - "https://github.com/hacked-team"
+
 ---
-
-# Discussed Articles
-
-1. Google's Comments on the Wassenaar Arrangement - http://googleonlinesecurity.blogspot.com/2015/07/google-wassenaar-arrangement-and.html
-   Send your comments to publiccomments@bis.doc.gov
-
-2. Finding Algorithmically Chosen DNS Names Using Entropy - https://isc.sans.edu/forums/diary/Detecting+Random+Finding+Algorithmically+chosen+DNS+names+DGA/19893/
-   Check out the code at https://github.com/MarkBaggett/MarkBaggett/tree/master/freq
-
-3. Google to Expand Use of Safe Browsing to Stop Unwanted Program - https://threatpost.com/google-to-expand-use-of-safe-browsing-to-stop-unwanted-software/113824
-   
-4. Hacking Team Gets Hacked - http://www.csoonline.com/article/2943968/data-breach/hacking-team-hacked-attackers-claim-400gb-in-dumped-data.html
-   Git repo for stolen source code: https://github.com/hacked-team
+{% include show_notes.html %}
 
 # Announcements!
 We'll be taking the next month off due to Braxton going on paternity leave. We'll be recording again at the end of August. But we can't just abandon you, our dear listeners, bereft of great security content so here are some other great podcasts and things to check out:
