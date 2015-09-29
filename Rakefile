@@ -15,7 +15,7 @@ task :clean do
 end
 
 desc 'build the site'
-task :build => [:spec] do
+task :build => [:spec, :clean] do
   sh 'bundle exec jekyll build'
 end
 
