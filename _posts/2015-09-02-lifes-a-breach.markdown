@@ -5,8 +5,8 @@ date: 2015-09-02
 episode: 11
 title: "Life's a Breach"
 audio_file_path: "/audio/sound-security-e011.mp3"
-length: 39433021
 duration: "27:23"
+length: 39433021
 
 articles: 
   -

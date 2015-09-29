@@ -24,24 +24,33 @@ layout: nil
     <itunes:explicit>{{ site.explicit_rating }}</itunes:explicit>
      {% for post in site.categories.episodes limit:100 %}
      <item>
-       <title>Episode {{ post.episode_num }} - {{ post.title }}</title>
+       <title>Episode {{ post.episode }} - {{ post.title }}</title>
        <itunes:author>{{ site.author | xml_escape }}</itunes:author>
        <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
        <itunes:summary>
        Discussed Articles
-       {% for article in post.articles %}
+       {% for article in page.articles %}
        {{ forloop.index }}) {{ article.title }}
+       {% unless article.comment == empty %} 
        {{ article.comment }}
+       {% endunless %}
        {% for url in article.urls %}
        * {{ url }}
        {% endfor %}
        {% endfor %}
+
+       {% if page.breach.title == empty %}
+       {% else %}
        Breach of the Week
-       {{ post.breach.title }}
-       {{ post.breach.comment }}
-       {% for url in post.breach.urls %}
+       {{ page.breach.title }}
+
+       {% unless page.breach.comment == empty %} 
+       {{ page.breach.comment }}
+       {% endunless %}
+       {% for url in page.breach.urls %}
        * {{ url }}
        {% endfor %}
+       {% endif %}
        </itunes:summary>
        <itunes:image href="{{ site.url }}{{ site.logo_path }}" />
        <enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
