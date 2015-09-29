@@ -40,7 +40,7 @@ describe "Posts" do
 
     it "should have correct podcasting metadata fields" do
       @posts.each do |post|
-        required_fields = %w(date title duration length category link)
+        required_fields = %w(date title duration length category audio_file_path)
         expect(post.keys).to include(*required_fields)
       end
     end
@@ -69,7 +69,7 @@ describe "Posts" do
 
     it "should have a valid audio file in audio directory" do
       @posts.each do |post|
-        expect(@audio_files).to include(post['link'].split("/")[4])
+        expect(@audio_files).to include(post['audio_file_path'].split("/")[2])
       end
     end
   end
