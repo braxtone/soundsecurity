@@ -1,0 +1,40 @@
+---
+layout: post
+category: episodes
+date: 2015-10-04
+episode: 12
+title: "HTTP$"
+audio_file_path: "/audio/sound-security-e012.mp3"
+length: 35868098
+duration: "34:59"
+
+articles: 
+  - 
+    title: "Breaches suck!"
+    comment: 'Two pertinent quotes: "Essentially, whoever has the lower level of security will be the one who will be responsible for the unauthorized transaction," said Doug Johnson, a senior vice president of payments and security policy at the American Bankers Association." and "In the case of Home Depot, the lawsuit alleges that the retailer had ignored multiple warnings about its vulnerabilities since 2008. The suit says Home Depot failed to turn on a feature of the 2007 version of Symantec antivirus software specifically designed to spot malware that attacks point-of-sale terminals"'
+    urls: 
+      - "https://nytimes.com/2015/09/29/business/as-online-data-theft-escalates-banks-look-to-retailers-to-bear-the-losses.html"
+      - "https://danielmiessler.com/blog/insurance-infosec/"
+  - 
+    title: "HTTPS are for premium services only!"
+    comment: ""
+    urls: 
+      - "https://googleonlinesecurity.blogspot.com/2015/09/https-support-coming-to-blogspot.html"
+      - "http://www.troyhunt.com/2015/08/were-struggling-to-get-traction-with.html"
+      - "https://twitter.com/pinboard/status/323486920946622464"
+      - "http://googlewebmastercentral.blogspot.com.au/2014/08/https-as-ranking-signal.html"
+      - "https://surkatty.org/blog/posts/certificate_authorities.html"
+  - 
+    title: "The Sad State of America's Voting Machines"
+    comment: "How are you managing your company's asset lifecycle? See the Ops Report Card for a starter policy."
+    urls: 
+      - "http://www.wired.com/2015/09/dismal-state-americas-decade-old-voting-machines/"
+      - "http://www.opsreportcard.com/section/22"
+breach: 
+  title: "T-Mobile / Experian"
+  comment: "What third-pary vendors and services are you implicitly or explicitly trusting to deliver your service to your customers? What is their security posture? Honorable mention - Patreon"
+  urls: 
+    - "https://krebsonsecurity.com/2015/10/experian-breach-affects-15-million-consumers/"
+    - "http://arstechnica.com/security/2015/10/gigabytes-of-user-data-from-hack-of-patreon-donations-site-dumped-online/"
+---
+{% include show_notes.html %}
