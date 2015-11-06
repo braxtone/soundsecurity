@@ -1,4 +1,7 @@
-Audio: [{{ site.url }}{{ page.audio_file_path }}]({{ site.url }}{{ page.audio_file_path }})
+<audio src="{{ site.url }}{{ page.audio_file_path }}" controls>
+<p>Your browser does not support the <code>audio</code> element. </p>
+</audio>
+Download Audio: [{{ site.url }}{{ page.audio_file_path }}]({{ site.url }}{{ page.audio_file_path }})
 
 ### Discussed Articles
 {% for article in page.articles %}
