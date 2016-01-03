@@ -11,7 +11,7 @@ duration: "35:29"
 articles: 
   - 
     title: "Juniper Finds An Unauthorized Backdoor"
-    comment: "In a supposedly routine check Juniper, a purveyor of all networking things, "
+    comment: "Juniper, a purveyor of all networking things, discovered a backdoor placed in their ScreenOS operation system by an unauthorized persons. What does this mean for the integrity of their products and how can we find backdoors in our own software?"
     urls: 
       - "http://blog.cryptographyengineering.com/2015/12/on-juniper-backdoor.html"
       - "https://www.imperialviolet.org/2015/12/19/juniper.html"
