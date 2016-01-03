@@ -1,12 +1,12 @@
 ---
 layout: post
 category: episodes
-date: 2015-09-02
-episode: 11
+date: 2016-NN-NN
+episode: NN
 title: ""
-audio_file_path: "/audio/"
+audio_file_path: "/audio/sound-security-e0"
 length:
-duration: ""
+duration: "NN:NN"
 
 articles: 
   - 
