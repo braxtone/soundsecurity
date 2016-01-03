@@ -5,7 +5,7 @@ date: 2015-12-30
 episode: 16
 title: "Backdoor Bounty Ethics"
 audio_file_path: "/audio/sound-security-e016.mp3"
-length:
+length: 51118540
 duration: "35:29"
 
 articles: 
