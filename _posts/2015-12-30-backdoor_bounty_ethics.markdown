@@ -26,5 +26,10 @@ articles:
     title: "2016 Predictions"
     comment: "2015 is over and 2016 is here, so it's about time that the Sound Security crew come up with some very accurate and in no way whatsoever wrong predictions for the glorious year that is 2016."
     urls: 
+
+breach: 
+  title: ""
+  comment: ""
+  urls: 
 ---
 {% include show_notes.html %}
