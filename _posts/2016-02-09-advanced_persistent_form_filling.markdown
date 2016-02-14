@@ -5,8 +5,8 @@ date: 2016-02-09
 episode: 18
 title: "Advanced Persistent Form Filling"
 audio_file_path: "/audio/sound-security-e018.mp3"
-length:
-duration: "NN:NN"
+length: 98016078
+duration: "40:50"
 
 articles: 
 - 
