@@ -4,17 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1>Latest Podcast Episodes:</h1>
 
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {% if post.category == 'episodes' %}
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Episode {{ post.episode }} > {{ post.title }}</a>
-        {% else %}
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        {% endif %}
+        <span class="post-date">Recorded on {{ post.date | date: "%b %-d, %Y" }}</span>
+        <audio src="{{ post.audio_file_path }}" controls>
+            <p>Your browser does not support the <code>audio</code> element. Here's
+            a nickle kid. Get yourself a better computer.</p>
+        </audio>
       </li>
     {% endfor %}
   </ul>

@@ -11,5 +11,5 @@ pointy-haired bosses, and other-hyphenated-things that make up our beloved secur
 
 For more info on your two hosts, check out their sites:
 
-* Braxton Ehle - <http://www.braxtonehle.com>
-* Osman Surkatty - <https://surkatty.org/>
+* Braxton Ehle - <https://www.braxtonehle.com>
+* Osman Surkatty - <https://surkatty.org>

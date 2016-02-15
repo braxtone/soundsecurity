@@ -1,14 +1,14 @@
+<small>Download the podcast's audio [directly here]({{ page.audio_file_path }}).</small>
 <audio src="{{ page.audio_file_path }}" controls preload="auto">
     <p>Your browser does not support the <code>audio</code> element. Here's
     a nickle kid. Get yourself a better computer.</p>
 </audio>
-Download the podcast's audio [directly here]({{ page.audio_file_path }}).
 
-### Discussed Articles
+### This Episode's Articles:
 {% for article in page.articles %}
-{{ forloop.index }}) {{ article.title }}
+#### {{ article.title }}
 {% unless article.comment == empty %} 
-*{{ article.comment }}*
+{{ article.comment }}
 {% endunless %}
 {% for url in article.urls %}
 * [{{ url }}]({{ url }})
