@@ -4,9 +4,7 @@ layout: default
 <div class="post">
 
     <h1>{{ page.title }}</h1>
-    <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{
-        page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif
-        %}</small>
+    <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
 
   <article class="post-content">
   {{ content }}
