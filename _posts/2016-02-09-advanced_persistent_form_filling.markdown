@@ -41,10 +41,10 @@ articles:
         - "https://motherboard.vice.com/read/hacked-toy-company-vtech-tos-now-says-its-not-liable-for-hacks"
         - "http://www.troyhunt.com/2016/02/no-vtech-cannot-simply-absolve-itself.html"
 breach: 
--
-    title: ""
-    comment: ""
-    urls: 
+  title: ""
+  comment: ""
+  urls: 
+    - ""
 
 ---
 {% include show_notes.html %}
