@@ -11,10 +11,6 @@ layout: default
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date">Recorded on {{ post.date | date: "%b %-d, %Y" }}</span>
-        <audio src="{{ post.audio_file_path }}" controls>
-            <p>Your browser does not support the <code>audio</code> element. Here's
-            a nickle kid. Get yourself a better computer.</p>
-        </audio>
       </li>
     {% endfor %}
   </ul>
