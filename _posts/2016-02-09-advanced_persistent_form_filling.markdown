@@ -20,8 +20,8 @@ articles:
         - "https://archive.org/details/Hiding_From_The_Investigator"
         - "https://archive.org/details/Gatekeeper_Exposed"
 - 
-    title: "Obama to appoint CISO"
-    comment: "Obama opens up a position for a new Federal CISO position for the US Government. Thanks Obama!"
+    title: "President Obama to appoint CISO"
+    comment: "President Obama opens up a position for a new Federal CISO position for the US Government. Thanks Obama!"
     urls: 
         - "https://www.usajobs.gov/GetJob/ViewDetails/428904900"
         - "http://www.federaltimes.com/story/government/cybersecurity/2016/02/09/obama-federal-ciso/80032796/"
