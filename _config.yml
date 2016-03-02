@@ -28,7 +28,7 @@ show_drafts: null
 # Podcast metadata
 copyright: "2015 Braxton Ehle + Osman Surkatty"
 subtitle: "Fanfare for the common infosec ninja"
-author: "Braxton Ehle + Osman Surkatty"
+author: "Sound Security"
 keywords: "infosec,information,security,blueteam,defense,enterprise,risk"
 owner: "Braxton Ehle"
 logo_path: "/images/itunes.png"
