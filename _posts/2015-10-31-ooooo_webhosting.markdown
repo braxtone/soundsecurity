@@ -7,6 +7,7 @@ title: "OoooOoo Webhosting"
 audio_file_path: "/audio/sound-security-e013.mp3"
 length: 51069007
 duration: "35:27"
+subtitle: "Covering doxing, university network security, certificate security, and more."
 
 articles: 
   - 

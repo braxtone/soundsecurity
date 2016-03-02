@@ -7,6 +7,7 @@ title: "Come At Me HTTP!"
 audio_file_path: "/audio/sound-security-e008.mp3"
 duration: "36:33"
 length: 35410256
+subtitle: "Covering unixist's camb Linux IDS tool, airport security, and more."
 
 articles:
   - 

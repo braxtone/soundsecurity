@@ -7,6 +7,7 @@ title: From Kaspersky With Love
 audio_file_path: "/audio/sound-security-e003.mp3"
 duration: "31:10"
 length: 31840592
+subtitle: "Covering Bloomberg vs Kaspersky, GitHub DDoS, Squid bugs, and more."
 
 articles: 
   - 

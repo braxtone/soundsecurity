@@ -7,6 +7,7 @@ title: Spicy Acronyms
 duration: "29:55"
 length: 57450080
 audio_file_path: "/audio/sound-security-e009.mp3"
+subtitle: "Covering a month without Flash, Samsung disabling Windows Updates, and more"
 
 articles: 
   - 

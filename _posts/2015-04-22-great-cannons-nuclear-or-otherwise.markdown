@@ -7,6 +7,7 @@ title: Great Cannons, Nuclear or Otherwise
 audio_file_path: "/audio/sound-security-e004.mp3"
 duration: "34:05"
 length: 24538968
+subtitle: "Covering executive orders, nuclear arsenal security fails, China's \"Great Cannon\", and more."
 
 articles: 
   - 

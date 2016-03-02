@@ -7,6 +7,7 @@ episode: "02"
 audio_file_path: "/audio/sound-security-e002.mp3"
 duration: "29:49"
 length: 28749503
+subtitle: "Covering Hillary Clinton's personal email server, the FREAK SSL downgrade attack, why DNSSEC is hard, Google WHOIS disclosure and more."
 
 articles: 
   - 

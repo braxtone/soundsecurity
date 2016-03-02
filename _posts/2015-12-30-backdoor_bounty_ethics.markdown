@@ -7,6 +7,7 @@ title: "Backdoor Bounty Ethics"
 audio_file_path: "/audio/sound-security-e016.mp3"
 length: 51118540
 duration: "35:29"
+subtitle: "Covering Juniper's administrative backdoor, bug bounty ethics, 2016 predictions and more."
 
 articles: 
   - 

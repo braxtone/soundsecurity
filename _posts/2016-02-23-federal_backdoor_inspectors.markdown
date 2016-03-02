@@ -7,6 +7,7 @@ title: "Federal Backdoor Inspectors"
 audio_file_path: "/audio/sound-security-e019.mp3"
 length: 39739805 
 duration: "39:01"
+subtitle: "Covering the legal implications of the FBI vs Apple case, safely storing passwords in 2016, and more."
 
 articles: 
 - 

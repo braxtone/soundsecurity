@@ -7,6 +7,7 @@ title: "Global Thermonuclear Variables"
 audio_file_path: "/audio/sound-security-e015.mp3"
 length: 56517744
 duration: "39:15"
+subtitle: "Covering the Sony hack followup, embedded vehicle security, SHA1 sunsets, and more."
 
 articles: 
   - 

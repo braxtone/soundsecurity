@@ -7,6 +7,7 @@ date: 2015-06-04
 title: Ssh, your PGP is showing
 duration: "31:10"
 length: 29921324
+subtitle: "Covering Facebook PGP emails, SSH support in Windows, the death of firewalls, and more."
 
 articles: 
   - 

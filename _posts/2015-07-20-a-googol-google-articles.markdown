@@ -7,6 +7,7 @@ title: A Googol Google Articles
 audio_file_path: "/audio/sound-security-e010.mp3"
 length: 38907361 
 duration: "38:09"
+subtitle: "Covering Google's commends on Wassenaar, using entropy to discover C2 domains, Safe Browse expansions and more."
 
 articles: 
   - 

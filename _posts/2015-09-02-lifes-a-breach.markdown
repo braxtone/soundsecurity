@@ -7,6 +7,7 @@ title: "Life's a Breach"
 audio_file_path: "/audio/sound-security-e011.mp3"
 duration: "27:23"
 length: 39433021
+subtitle: "Covering lame security policies, the joyous death of old plugins, quantum-resistant computing, and more."
 
 articles: 
   -

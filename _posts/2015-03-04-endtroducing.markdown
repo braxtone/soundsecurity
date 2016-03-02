@@ -7,6 +7,7 @@ episode: "01"
 audio_file_path: "/audio/sound-security-e001.mp3"
 duration: "39:19"
 length: 28303670
+subtitle: "Introducing the Sound Security Podcast, covering Superfish, Burning Man line jumping, OS vulnerability counts and more."
 
 articles: 
   - 

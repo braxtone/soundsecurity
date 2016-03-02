@@ -26,7 +26,7 @@ layout: null
      <item>
        <title>Episode {{ post.episode }} - {{ post.title }}</title>
        <itunes:author>{{ site.author | xml_escape }}</itunes:author>
-       <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+       <itunes:subtitle>{{ post.subtitle }}</itunes:subtitle>
        <itunes:summary>
        Discussed Articles
        {% for article in post.articles %}

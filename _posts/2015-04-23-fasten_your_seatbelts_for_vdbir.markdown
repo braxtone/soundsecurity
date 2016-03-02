@@ -7,6 +7,7 @@ title: Fasten your seatbelts for VDBIR
 audio_file_path: "/audio/sound-security-e005.mp3"
 duration: "28:31"
 length: 27380975
+subtitle: "Covering the 2015 DBIR, hacking planes, and knowing your systems."
 
 articles: 
   - 

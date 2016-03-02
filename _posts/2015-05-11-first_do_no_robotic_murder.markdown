@@ -7,6 +7,7 @@ episode: "06"
 audio_file_path: "/audio/sound-security-e006.mp3"
 duration: "30:35"
 length: 29346086
+subtitle: "Covering remote crashing of surgical robots, how to think in defense, SHA-1 migrations, and Superfish review."
 
 articles: 
   - 

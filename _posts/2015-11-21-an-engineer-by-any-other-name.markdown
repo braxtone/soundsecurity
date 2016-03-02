@@ -7,6 +7,7 @@ title: "An Engineer by Any Other Name..."
 audio_file_path: "/audio/sound-security-e014.mp3"
 length: 56598738 
 duration: "56:30"
+subtitle: "Covering Josh's PhishReporter plugin and whether security engineers have earned the title."
 
 articles: 
   - 

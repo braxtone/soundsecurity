@@ -7,6 +7,7 @@ title: "HTTP$"
 audio_file_path: "/audio/sound-security-e012.mp3"
 length: 35868098
 duration: "34:59"
+subtitle: "Covering breach blaming, why Johnny still can't encrypt, voting machine vulns, and more."
 
 articles: 
   - 

@@ -7,6 +7,7 @@ title: "Advanced Persistent Form Filling"
 audio_file_path: "/audio/sound-security-e018.mp3"
 length: 98016078
 duration: "40:50"
+subtitle: "Covering Shmoocon 2016, a Federal CISO position, where security teams should report, and more."
 
 articles: 
 - 
