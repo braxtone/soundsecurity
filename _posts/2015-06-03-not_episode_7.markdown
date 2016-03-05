@@ -1,5 +1,6 @@
 ---
 layout: post
+category: blog
 date: 2015-06-03
 title: Not Episode Seven
 ---

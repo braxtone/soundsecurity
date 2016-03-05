@@ -13,3 +13,13 @@ For more info on your two hosts, check out their sites:
 
 * Braxton Ehle - <https://www.braxtonehle.com>
 * Osman Surkatty - <https://surkatty.org>
+
+Learn More
+=======
+
+Twitter: [@{{ site.twitter_username }}](https://twitter.com/{{site.twitter_username}})
+
+Email: <info@soundsecurity.io>
+
+
+

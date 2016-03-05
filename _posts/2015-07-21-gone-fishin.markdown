@@ -1,6 +1,7 @@
 ---
 layout: post
 date: 2015-07-21
+category: blog
 title: Gone Fishin’
 ---
 
