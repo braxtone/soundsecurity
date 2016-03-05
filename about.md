@@ -21,5 +21,6 @@ Twitter: [@{{ site.twitter_username }}](https://twitter.com/{{site.twitter_usern
 
 Email: <info@soundsecurity.io>
 
+[Sound Security Blog](http://feeds.feedburner.com/SoundSecurityPodcastBlog) - Feed for non-episode blog posts
 
 
