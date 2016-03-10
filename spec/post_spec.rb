@@ -40,34 +40,49 @@ describe "Posts" do
 
     it "should have correct podcasting metadata fields" do
       @posts.each do |post|
-        required_fields = %w(date title duration length category audio_file_path)
+        required_fields = %w(date episode title duration length category audio_file_path subtitle articles breach)
         expect(post.keys).to include(*required_fields)
       end
     end
 
     it "should have a valid date field" do
+      require 'date'
       @posts.each do |post|
-        expect(post['date'].to_s).not_to eq("1969-07-16")
-        expect(post['date'].to_s).to match(/^20\d{2}-\d{2}-\d{2}/)
+        expect(post['date'].to_s).not_to eq("2016-NN-NN")
+        expect(Date.strptime(post['date'].to_s, '%Y-%m-%d')).to be_a(Date)
       end
     end
 
     it "should have a valid duration field" do
-      # http://www.apple.com/itunes/podcasts/specs.html#duration
-      # http://rubular.com/r/PI9aMMVYNW
+      # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
+      # Regex: http://rubular.com/r/PI9aMMVYNW
       @posts.each do |post|
         expect(post['duration']).to match(/^([0-2][0-9]:[0-5][0-9]:[0-5][0-9])$|^([0-9]:[0-5][0-9]:[0-5][0-9])$|^(((:?[0-5])[0-9]):((:?[0-5])[0-9]))$|^([0-9]:[0-5][0-9])$/)
       end
     end
 
     it "should have a valid length field" do
-      # http://www.apple.com/itunes/podcasts/specs.html
+      # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
       @posts.each do |post|
-        expect(post['length'].to_s).to match(/[0-9]{1,}/)
+        expect(post['length'].to_s).to match(/^[0-9]{1,}$/)
       end
     end
 
-    it "should have a valid audio file in audio directory" do
+    it "should have a valid episode field" do
+      # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
+      @posts.each do |post|
+        expect(post['episode'].to_s).to match(/^[0-9]{1,}$/)
+      end
+    end
+
+    it "should have a valid subtitle field" do
+      @posts.each do |post|
+        expect(post['subtitle'].to_s).not_to eq("")
+        expect(post['subtitle'].length).to be <= 140
+      end
+    end
+
+    it "should have a corresponding audio file in audio directory" do
       @posts.each do |post|
         expect(@audio_files).to include(post['audio_file_path'].split("/")[2])
       end
