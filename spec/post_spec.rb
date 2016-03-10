@@ -38,14 +38,14 @@ describe "Posts" do
       end
     end
 
-    it "should have correct podcasting metadata fields" do
+    it "have all metadata fields" do
       @posts.each do |post|
         required_fields = %w(date episode title duration length category audio_file_path subtitle articles breach)
         expect(post.keys).to include(*required_fields)
       end
     end
 
-    it "should have a valid date field" do
+    it "has a valid date" do
       require 'date'
       @posts.each do |post|
         expect(post['date'].to_s).not_to eq("2016-NN-NN")
@@ -53,7 +53,7 @@ describe "Posts" do
       end
     end
 
-    it "should have a valid duration field" do
+    it "has a valid duration" do
       # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
       # Regex: http://rubular.com/r/PI9aMMVYNW
       @posts.each do |post|
@@ -61,28 +61,28 @@ describe "Posts" do
       end
     end
 
-    it "should have a valid length field" do
+    it "has a valid length" do
       # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
       @posts.each do |post|
         expect(post['length'].to_s).to match(/^[0-9]{1,}$/)
       end
     end
 
-    it "should have a valid episode field" do
+    it "has a valid episode number" do
       # https://help.apple.com/itc/podcasts_connect/#/itcb54353390
       @posts.each do |post|
         expect(post['episode'].to_s).to match(/^[0-9]{1,}$/)
       end
     end
 
-    it "should have a valid subtitle field" do
+    it "has a valid subtitle" do
       @posts.each do |post|
         expect(post['subtitle'].to_s).not_to eq("")
         expect(post['subtitle'].length).to be <= 140
       end
     end
 
-    it "should have a corresponding audio file in audio directory" do
+    it "has an audio file" do
       @posts.each do |post|
         expect(@audio_files).to include(post['audio_file_path'].split("/")[2])
       end

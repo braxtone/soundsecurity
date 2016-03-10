@@ -2,7 +2,7 @@ require 'rspec/core/rake_task'
 
 desc 'run tests'
 RSpec::Core::RakeTask.new do |t|
-  t.rspec_opts = ["-c", "-f progress", "-r ./spec/spec_helper.rb"]
+  t.rspec_opts = [ "--color", "--format progress", "--order rand", "-r ./spec/spec_helper.rb" ]
   t.pattern = 'spec/**/*_spec.rb'
 end
 
@@ -26,6 +26,6 @@ end
 
 desc 'run server'
 task :server do
-    sh "bundle exec jekyll serve --watch"
+  sh "bundle exec jekyll serve --watch"
 end
 
