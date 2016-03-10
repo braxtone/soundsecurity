@@ -3,15 +3,15 @@ layout: page
 title: Subscribe
 permalink: /subscribe/
 ---
-
-Here are all the ways you can get the Sound Security Podcast into your ears:
+Here are all the ways you can get the Sound Security Podcast into your ears.
 
 Feeds
 =====
+Our official podcast feeds:
 
-[iTunes Feed](https://itunes.apple.com/tt/podcast/sound-security-podcast/id974229319?mt=2) - There are some feeds iDevices subscribe to
-
-[Feedburner](https://feeds.feedburner.com/SoundSecurityPodcast) - For everything else, there's Feedburner
+* [iTunes](https://itunes.apple.com/tt/podcast/sound-security-podcast/id974229319)
+* [FeedBurner](https://feeds.feedburner.com/SoundSecurityPodcast)
+* [Direct Atom Feed](/feed.xml)
 
 Direct Audio Links
 ==================
@@ -20,7 +20,7 @@ Want to just download our episodes in mass? Here's a list of the audio files:
 <ul>
   {% for post in site.categories.episodes %}
     <li>
-      <a class="post-link" href="{{ post.audio_file_path | prepend: site.url }}">{{ post.audio_file_path | prepend: site.url }}</a>
+      <a download class="post-link" href="{{ post.audio_file_path | prepend: site.url }}">{{ post.audio_file_path | prepend: site.url }}</a>
     </li>
   {% endfor %}
 </ul>
