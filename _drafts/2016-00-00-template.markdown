@@ -5,8 +5,9 @@ date: 2016-NN-NN
 episode: NN
 title: ""
 audio_file_path: "/audio/sound-security-e0"
-length:
+length: 123
 duration: "NN:NN"
+subtitle: ""
 
 articles: 
   - 
