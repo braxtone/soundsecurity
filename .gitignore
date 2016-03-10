@@ -2,3 +2,4 @@ _site
 _drafts
 *.swp
 s3_website.yml
+Gemfile.lock
