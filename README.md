@@ -1,4 +1,8 @@
 # soundsecurity.io
-The code behind Osman and my shiny new security podcast website. This site is created via Jekyll and lives at http://soundsecurity.io 
+The code behind Osman and Braxton's Information Security podcast website. The site is:
 
-To subscribe to the podcast, check out http://feeds.feedburner.com/SoundSecurityPodcast
+* Created via Jekyll
+* Hosted on S3
+* Protected & cached by Cloudflare
+
+To subscribe to the podcast, check out: https://soundsecurity.io/subscribe
