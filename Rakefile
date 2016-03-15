@@ -16,7 +16,7 @@ end
 
 desc 'build the site'
 task :build => [:spec, :clean] do
-  sh 'bundle exec jekyll build'
+  sh 'bundle exec jekyll build --incremental'
 end
 
 desc 'rebuild, then deploy to remote'
@@ -26,6 +26,6 @@ end
 
 desc 'run server'
 task :server do
-  sh "bundle exec jekyll serve --watch"
+  sh "bundle exec jekyll serve --watch --incremental"
 end
 
