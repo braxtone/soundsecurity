@@ -6,21 +6,13 @@ RSpec::Core::RakeTask.new do |t|
   t.pattern = 'spec/**/*_spec.rb'
 end
 
-desc 'clean'
-task :clean do
-  rm_rf '_site'
-  FileList['**/*.bak'].clear_exclude.each do |f|
-    rm_f f
-  end
-end
-
 desc 'build the site'
-task :build => [:spec, :clean] do
+task :build => [:spec] do
   sh 'bundle exec jekyll build --incremental'
 end
 
 desc 'rebuild, then deploy to remote'
-task :deploy => [ :spec, :clean, :build ] do
+task :deploy => [ :spec, :build ] do
   sh 'bundle exec s3_website push'
 end
 
