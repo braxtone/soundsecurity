@@ -11,7 +11,6 @@ Our official podcast feeds:
 
 * [iTunes](https://itunes.apple.com/tt/podcast/sound-security-podcast/id974229319)
 * [FeedBurner](https://feeds.feedburner.com/SoundSecurityPodcast)
-* [Direct Atom Feed](/feed.xml)
 
 Direct Audio Links
 ==================
