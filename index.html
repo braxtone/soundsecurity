@@ -10,7 +10,7 @@ layout: default
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% if post.category == 'episodes' %}Episode {{ post.episode }} > {% endif %}{{ post.title }}</a>
         <span class="post-date">Recorded on {{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
     {% endfor %}
