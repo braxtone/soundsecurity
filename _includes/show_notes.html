@@ -1,8 +1,11 @@
+{% if page.audio_file_path == empty %}
+{% else %}
 <small>Download the podcast's audio <a download href="{{ page.audio_file_path }}">directly here</a>.</small>
 <audio src="{{ page.audio_file_path }}" controls preload="auto">
     <p>Your browser does not support the <code>audio</code> element. Here's
     a nickle kid. Get yourself a better computer.</p>
 </audio>
+{% endif %}
 
 ### This Episode's Articles:
 {% for article in page.articles %}
