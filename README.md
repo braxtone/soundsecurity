@@ -1,5 +1,5 @@
 # soundsecurity.io
-The code behind Osman and Braxton's Information Security podcast website. The site is:
+The code behind Sean and Braxton's Information Security podcast website. The site is:
 
 * Created via Jekyll
 * Hosted on S3

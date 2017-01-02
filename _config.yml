@@ -1,7 +1,7 @@
 # Site settings
 title: "Sound Security Podcast"
 email: "info@soundsecurity.io"
-description: "Braxton Ehle and Osman Surkatty rant about the latest in information security news to help enterprises and mere mortals defend their information."
+description: "Braxton Ehle and Sean Williams rant about the latest in information security news to help enterprises and mere mortals defend their information."
 baseurl: ""
 url: "https://soundsecurity.io"
 url_http: "http://soundsecurity.io"
@@ -27,7 +27,7 @@ permalink: pretty
 show_drafts: null
 
 # Podcast metadata
-copyright: "2015 Braxton Ehle + Osman Surkatty"
+copyright: "2015 Braxton Ehle + Sean Williams"
 subtitle: "Fanfare for the common infosec ninja"
 author: "Sound Security"
 keywords: "infosec,information,security,blueteam,defense,enterprise,risk"
